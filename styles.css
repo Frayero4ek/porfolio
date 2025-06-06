@@ -75,6 +75,15 @@ body {
     height: auto;
 }
 
+
+.custom-link{
+  text-decoration: none;
+  color: var(--text);
+  font-weight: bold;
+  border-bottom: 2px solid var(--accent);
+  transition: color 0.3s, border-color 0.3s;
+}
+
 .header-container {
   display: flex;
   align-items: center;
